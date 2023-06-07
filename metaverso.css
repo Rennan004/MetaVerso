@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Poppins;
+    max-width: 100%;
+    overflow: overlay;
+}
+
+
+.parte-preta {
+    background-color: rgb(1, 1, 2);
+    padding: 100px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.parte-preta h2 {
+    color: white;
+    margin-left: 140px;
+}
+
+.parte-preta p {
+    color: white;  
+    margin-left: 140px; 
+}
+
+.gradiente div {
+    margin-right: 100px;
+}
+
+
+.gradiente {
+    background: linear-gradient(0deg, rgb(60, 29, 95) 0%, rgb(49, 60, 156)100%);
+    padding: 240px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+}
+
+.gradiente h2 {
+    color: #ffffff;
+}
+
+.gradiente p {
+    color: #ffffff;
+}
+
+.preta-final {
+    background-color: black;
+    padding: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.preta-final h2 {
+    color: #ffffff;
+}
+
+.preta-final p {
+    color: #ffffff;
+}
+
+.img-meta {
+    display: flex;
+    max-width: 200px;
+    margin-top: 60px;
+}
+
+.img-meta:hover {
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+
+.final h3 {
+    color: white;
+}
+
+.final a {
+    color: white;
+    border-left: 4px;
+}
+
+.final a:hover {
+    padding-left: 30px;
+    color: rgb(24, 20, 20);
+    transition: .4s;
+}
+
+
+
+.final {
+    background: linear-gradient(0deg, rgb(67, 62, 156) 0%, rgb(53, 31, 51)100%);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    gap: 12px;
+}
+
+.final div {
+    margin-right: 92px;
+
+}
+
+.logo-ronnie {
+    margin-left: 50px;
+    max-width: 180px;
+}
+
+.logo-ronnie:hover {
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+
+.logo-redes {
+    max-width: 35px;
+    margin-top: 2px;
+}
+
+.logo-quadrado {
+    max-width: 150px;
+    margin-top: 30px;
+}
+
+.video {
+    padding-bottom: 150px;
+    width: 100%;
+
+}
+
+.logo-quadrado:hover {
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+.seta {
+    margin-top: 200px;
+    justify-content: end;
+    align-items: center;
+    max-width: 40px;
+}
+.video-educacao {
+    margin-top: 28px;
+    margin-left: 260px;
+   
+}
+a:hover{
+    padding-left: 30px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+}

@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Poppins;
+    max-width: 100%;
+    overflow: overlay;
+    /* margin: 0 auto; */
+
+}
+
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent ;
+}
+
+::-webkit-scrollbar-thumb {
+     background-color: #9e9ea0;
+     border-radius: 1.25rem;
+}
+
+.nav {
+    display: flex;
+    position: absolute;
+    width: 1480px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.616);
+    border-radius: 40px;
+    margin: 3.125rem 14rem 0;
+    padding: 1rem .25rem;
+}
+
+.navegacao ul {
+    justify-self: end;
+    display: flex;
+}
+
+.navegacao ul li {
+    display: inline-block;
+    justify-content: center;
+    padding: 0 1.25rem;
+    font-weight: bold;
+}
+
+.navegacao ul li:hover {
+    padding-left: 30px;
+    color: rgb(89, 40, 129);
+    transition: .4s;
+}
+
+.navegacao a {
+    color: #ffffff;
+    border-left: 4px;
+}
+
+figure img {
+    height: 3.125rem;
+    margin-top: 0.188rem;
+    padding: 0 1.25rem;
+   height: 37px;
+}
+
+figure img:hover {
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+
+.section-div {
+    background: linear-gradient(0deg, rgb(33, 38, 134) 0%, rgb(92, 35, 91) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    padding: 230px;
+    gap: 80px;
+   
+}
+
+.section-div div h2{
+    color: #ffffff;
+
+}
+
+.section-div div p {
+    color: white;
+    justify-content: end;
+}
+.img-rennan {
+    max-width:600px;
+    border-radius: 3rem;
+    display: flex;
+    margin-left: 1px;
+}
+.img-rennan:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+} 
+.parte-preta {
+    background-color: rgb(1, 1, 2);
+    padding: 220px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.parte-preta h2 {
+    color: white;
+}
+
+.parte-preta p {
+    color: white;
+    justify-content: end;
+}
+
+.gradiente div {
+    margin-right: 100px;
+}
+
+
+.gradiente {
+    background: linear-gradient(0deg, rgb(60, 29, 95) 0%, rgb(49, 60, 156)100%);
+    padding: 300px;
+    justify-content: space-around;
+  display: flex;
+}
+
+.gradiente h2 {
+    color: #ffffff;
+}
+
+.gradiente p {
+    color: #ffffff;
+}
+
+.preta-final {
+    background-color: black;
+    margin: 0px;
+    padding: 80px;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.preta-final h2 {
+    color: #ffffff;
+
+}
+
+.preta-final p {
+    color: #ffffff;
+  
+}
+.travis {
+    margin-top: 25px;
+}
+
+.img-meta {
+    display: flex;
+    max-width: 180px;
+    margin-top: 60px;
+  
+}
+
+.img-meta:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+} 
+
+.final h3{
+    color: white;
+}
+
+.final a {
+    color: white;
+    border-left: 4px;
+}
+ .nav a:hover{
+    padding-left: 30px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+}
+.final{
+    background: linear-gradient(0deg, rgb(67, 62, 156) 0%, rgb(53, 31, 51)100%);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    grid-template-columns: 1fr 1fr ;
+    padding: 30px ;
+    gap: 12px;
+}
+.final div{
+    margin-right: 92px;
+}
+.final a:hover{
+    padding-left: 30px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+}
+.logo-ronnie{
+    margin-left: 50px;
+    max-width: 180px;
+}
+
+.logo-ronnie:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+} 
+
+.logo-redes {
+    max-width: 35px;
+  margin-top: 2px;
+ 
+}
+.seta {
+    margin-top: 200px;
+    max-width: 40px;
+}
+.link-realidade{
+    color: aqua;
+}
+.link-aumentada{
+    color: aqua;
+}
+.parte-preta a:hover{
+color: white;
+transition: none;
+}
